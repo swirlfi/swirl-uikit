@@ -6,6 +6,7 @@ import Flex from "../../components/Flex/Flex";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Link from "../../components/Link/Link";
 import Skeleton from "../../components/Skeleton/Skeleton";
+import Image from "../../components/Image/Image";
 import Button from "../../components/Button/Button";
 import IconButton from "../../components/Button/IconButton";
 import MenuButton from "./MenuButton";
@@ -77,6 +78,7 @@ const PanelFooter: React.FC<Props> = ({
 
   return (
     <Container>
+      <a href="https://rugdoc.io/project/swirl-finance/"><Image src="/images/rugdoc-review-badge-with-glow.png" width={230} height={98} /></a>
       <SocialEntry>
         {cakePriceUsd ? (
           <PriceLink href={priceLink} target="_blank">

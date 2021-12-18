@@ -2353,6 +2353,8 @@ var PanelFooter = function (_a) {
                 React.createElement(Icon$l, null))));
     }
     return (React.createElement(Container$4, null,
+        React.createElement("a", { href: "https://rugdoc.io/project/swirl-finance/" },
+            React.createElement(Image, { src: "/images/rugdoc-review-badge-with-glow.png", width: 230, height: 98 })),
         React.createElement(SocialEntry, null,
             cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
                 React.createElement(Icon$v, { width: "24px", mr: "8px" }),
