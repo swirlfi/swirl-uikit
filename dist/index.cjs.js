@@ -2366,8 +2366,6 @@ var PanelFooter = function (_a) {
                 React__default['default'].createElement(Icon$l, null))));
     }
     return (React__default['default'].createElement(Container$4, null,
-        React__default['default'].createElement("a", { href: "https://rugdoc.io/project/swirl-finance/" },
-            React__default['default'].createElement(Image, { src: "/images/rugdoc-review-badge-with-glow.png", width: 230, height: 98 })),
         React__default['default'].createElement(SocialEntry, null,
             cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: priceLink, target: "_blank" },
                 React__default['default'].createElement(Icon$v, { width: "24px", mr: "8px" }),
